@@ -154,7 +154,7 @@ a {
 /* index */
 /* hero-section */
 
-.hero-bgi {
+.hero-section {
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
@@ -311,7 +311,7 @@ a {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding-top: 27px;
+  align-items: center;
   color: var(--secondary-text-color);
   background-image: linear-gradient(rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8));
 }
@@ -433,6 +433,7 @@ a {
   line-height: 2;
   letter-spacing: 0.06em;
   margin-bottom: 4px;
+  color: var(--text-color-priority);
 }
 .list-text {
   font-size: 16px;
